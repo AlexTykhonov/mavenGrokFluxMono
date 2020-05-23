@@ -113,7 +113,7 @@ public class mainClass {
         subscriber.request(1);
 
         System.out.println("=== catch and rethrow ===");
-        flux.mapError(e -> new Exception("mapError"))
+        flux.mapError(e -> new CustomException("mapError"))
                 .subscribe(System.out::println);
     }
 }
