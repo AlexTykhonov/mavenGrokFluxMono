@@ -4,6 +4,10 @@ import reactor.core.publisher.Flux;
 
 import java.util.Random;
 
+
+// source https://grokonez.com/reactive-programming/reactor/reactor-handle-error
+// Handling errors
+
 public class mainClass {
 
     public static void main(String[] args) {
